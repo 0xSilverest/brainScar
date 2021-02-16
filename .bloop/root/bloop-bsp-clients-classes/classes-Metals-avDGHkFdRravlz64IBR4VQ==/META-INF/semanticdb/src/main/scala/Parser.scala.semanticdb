@@ -1,0 +1,220 @@
+
+þ?src/main/scala/Parser.scala*"
+_empty_/Command# *Command€*-
+_empty_/Command#`<init>`(). €@*<init>€*!
+_empty_/IncPtr# €*IncPtr€*,
+_empty_/IncPtr#`<init>`(). €@*<init>€*#
+_empty_/IncPtr#copy().*copy€* 
+_empty_/IncPtr.
+ *IncPtr€*%
+_empty_/IncPtr.apply().*apply€*)
+_empty_/IncPtr.unapply().*unapply€**
+_empty_/IncPtr.unapply().(x$1)*x$1€*+
+_empty_/IncPtr.toString().*toString€*!
+_empty_/DecPtr# €*DecPtr€*,
+_empty_/DecPtr#`<init>`(). €@*<init>€*#
+_empty_/DecPtr#copy().*copy€* 
+_empty_/DecPtr.
+ *DecPtr€*%
+_empty_/DecPtr.apply().*apply€*)
+_empty_/DecPtr.unapply().*unapply€**
+_empty_/DecPtr.unapply().(x$1)*x$1€*+
+_empty_/DecPtr.toString().*toString€*#
+_empty_/IncData# €*IncData€*-
+_empty_/IncData#`<init>`(). €@*<init>€*$
+_empty_/IncData#copy().*copy€*"
+_empty_/IncData.
+ *IncData€*&
+_empty_/IncData.apply().*apply€**
+_empty_/IncData.unapply().*unapply€*+
+_empty_/IncData.unapply().(x$1)*x$1€*,
+_empty_/IncData.toString().*toString€*#
+_empty_/DecData# €*DecData€*-
+_empty_/DecData#`<init>`(). €@*<init>€*$
+_empty_/DecData#copy().*copy€*"
+_empty_/DecData.
+ *DecData€*&
+_empty_/DecData.apply().*apply€**
+_empty_/DecData.unapply().*unapply€*+
+_empty_/DecData.unapply().(x$1)*x$1€*,
+_empty_/DecData.toString().*toString€*
+_empty_/Print# €*Print€*+
+_empty_/Print#`<init>`(). €@*<init>€*"
+_empty_/Print#copy().*copy€*
+_empty_/Print.
+ *Print€*$
+_empty_/Print.apply().*apply€*(
+_empty_/Print.unapply().*unapply€*)
+_empty_/Print.unapply().(x$1)*x$1€**
+_empty_/Print.toString().*toString€*
+_empty_/Input# €*Input€*+
+_empty_/Input#`<init>`(). €@*<init>€*"
+_empty_/Input#copy().*copy€*
+_empty_/Input.
+ *Input€*$
+_empty_/Input.apply().*apply€*(
+_empty_/Input.unapply().*unapply€*)
+_empty_/Input.unapply().(x$1)*x$1€**
+_empty_/Input.toString().*toString€*
+_empty_/Loop# €*Loop€**
+_empty_/Loop#`<init>`(). €@*<init>€*0
+_empty_/Loop#`<init>`().(exprs) €*exprs€*$
+_empty_/Loop#exprs. €*exprs€*!
+_empty_/Loop#copy().*copy€*)
+_empty_/Loop#copy().(exprs)*exprs€*5
+_empty_/Loop#copy$default$1().*copy$default$1€*
+_empty_/Loop#_1().*_1€*
+_empty_/Loop.
+ *Loop€*#
+_empty_/Loop.apply().*apply€**
+_empty_/Loop.apply().(exprs)*exprs€*'
+_empty_/Loop.unapply().*unapply€*(
+_empty_/Loop.unapply().(x$1)*x$1€*)
+_empty_/Loop.toString().*toString€*#
+_empty_/Program# €*Program€*-
+_empty_/Program#`<init>`(). €@*<init>€*3
+"_empty_/Program#`<init>`().(exprs) €*exprs€*'
+_empty_/Program#exprs. €*exprs€*$
+_empty_/Program#copy().*copy€*,
+_empty_/Program#copy().(exprs)*exprs€*8
+!_empty_/Program#copy$default$1().*copy$default$1€* 
+_empty_/Program#_1().*_1€*"
+_empty_/Program.
+ *Program€*&
+_empty_/Program.apply().*apply€*-
+_empty_/Program.apply().(exprs)*exprs€**
+_empty_/Program.unapply().*unapply€*+
+_empty_/Program.unapply().(x$1)*x$1€*,
+_empty_/Program.toString().*toString€*$
+_empty_/BFParser.
+ *BFParser€*+
+_empty_/BFParser.command().*command€*
+local0*x$1€*
+local1 €*exprs€*%
+_empty_/BFParser.loop().*loop€*+
+_empty_/BFParser.program().*program€*'
+_empty_/BFParser.parse().*parse€*&
+_empty_/BFParser.parse().(s)*s€2$
+  scala/util/matching/Regex.2$
+  scala/util/matching/Regex#2
+ scala/util/matching/2
+ scala/util/2
+ scala/2=
+% 5/scala/util/parsing/combinator/JavaTokenParsers.2,
+ $scala/util/parsing/combinator/2!
+ scala/util/parsing/2
+ scala/util/2
+ scala/2
+ _empty_/Command#2%
+_empty_/Command#`<init>`().2
+ _empty_/IncPtr#2(
+ _empty_/IncPtr#`<init>`().2
+ $_empty_/Command#2
+ _empty_/DecPtr#2(
+ _empty_/DecPtr#`<init>`().2
+ $_empty_/Command#2
+ _empty_/IncData#2)
+ _empty_/IncData#`<init>`().2
+ %_empty_/Command#2
+ _empty_/DecData#2)
+ _empty_/DecData#`<init>`().2
+ %_empty_/Command#2
+ _empty_/Print#2'
+ _empty_/Print#`<init>`().2
+ #_empty_/Command#2
+		 _empty_/Input#2'
+		 _empty_/Input#`<init>`().2
+		 #_empty_/Command#2
+
+
+ _empty_/Loop#2&
+
+
+ _empty_/Loop#`<init>`().2!
+
+
+ scala/package.List#2
+
+
+ $_empty_/Command#2
+
+/
+ 6_empty_/Command#2!
+
+
+ _empty_/Loop#exprs.2
+ _empty_/Program#2)
+ _empty_/Program#`<init>`().2!
+ scala/package.List#2
+ &_empty_/Command#2$
+ _empty_/Program#exprs.2
+ _empty_/BFParser.2=
+ (/scala/util/parsing/combinator/JavaTokenParsers#2)
+ _empty_/BFParser.command().2;
+ -scala/util/parsing/combinator/Parsers#Parser#2
+ _empty_/Command#2B
+/ 14scala/util/parsing/combinator/Parsers#Parser#`^^`().2A
+' (3scala/util/parsing/combinator/Parsers#Parser#`|`().2A
+! "3scala/util/parsing/combinator/Parsers#Parser#`|`().2A
+ 3scala/util/parsing/combinator/Parsers#Parser#`|`().2A
+ 3scala/util/parsing/combinator/Parsers#Parser#`|`().2A
+ 3scala/util/parsing/combinator/Parsers#Parser#`|`().2A
+	 
+3scala/util/parsing/combinator/Parsers#Parser#`|`().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2C
+# #5scala/util/parsing/combinator/RegexParsers#literal().2&
+) -_empty_/BFParser.loop().2
+ local02%
+ _empty_/IncPtr.apply().2
+ _empty_/IncPtr.2%
+ _empty_/DecPtr.apply().2
+ _empty_/DecPtr.2&
+ _empty_/IncData.apply().2
+ _empty_/IncData.2&
+ _empty_/DecData.apply().2
+ _empty_/DecData.2$
+ _empty_/Print.apply().2
+ _empty_/Print.2$
+ _empty_/Input.apply().2
+ _empty_/Input.2%
+ _empty_/Loop.unapply().2
+ _empty_/Loop.2
+ local12#
+ _empty_/Loop.apply().2
+ _empty_/Loop.2
+ $local12&
+ 
+_empty_/BFParser.loop().2;
+ -scala/util/parsing/combinator/Parsers#Parser#2
+ _empty_/Loop#2B
+ !4scala/util/parsing/combinator/Parsers#Parser#`^^`().2B
+ 4scala/util/parsing/combinator/Parsers#Parser#`<~`().2B
+ 
+4scala/util/parsing/combinator/Parsers#Parser#`~>`().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2:
+ ,scala/util/parsing/combinator/Parsers#rep().2)
+ _empty_/BFParser.command().2C
+ 5scala/util/parsing/combinator/RegexParsers#literal().2#
+' '_empty_/Loop.apply().2
+# '_empty_/Loop.2)
+ _empty_/BFParser.program().2;
+ -scala/util/parsing/combinator/Parsers#Parser#2
+ _empty_/Program#2B
+ 4scala/util/parsing/combinator/Parsers#Parser#`^^`().2:
+ ,scala/util/parsing/combinator/Parsers#rep().2)
+ _empty_/BFParser.command().2&
+ _empty_/Program.apply().2
+ _empty_/Program.2'
+   _empty_/BFParser.parse().2*
+   _empty_/BFParser.parse().(s)2"
+   scala/Predef.String#2@
+ !  ,2scala/util/parsing/combinator/Parsers#ParseResult#2
+    _empty_/BFParser.2
+ .  5_empty_/Program#2F
+!! 8scala/util/parsing/combinator/RegexParsers#parseAll(+2).2)
+!! _empty_/BFParser.program().2*
+!! _empty_/BFParser.parse().(s)PZ 9A1F1B45B663FB4203A66FD34EFD4F24

@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/silverest/Coding/Scala/brainscar/src/main/scala/BFParser.scala:41:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m  [35m@main[0m [33mdef[0m [36mtest[0m () =[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  test is already defined as [33mclass[0m [35mtest[0m[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
