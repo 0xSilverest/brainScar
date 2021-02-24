@@ -32,7 +32,7 @@ object BFParser extends RegexParsers :
   
   def statement = rep1(expr)
 
-  def parseSource(input: String): Either[] =
+  def parseSource(input: String) =
     parse(statement, input) match
       case Success (result, _) => result
       case Failure (msg, _) => throw new Exception (s"Failure : $msg")

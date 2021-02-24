@@ -104,7 +104,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/silverest/.sdkman/candidates/java/15.0.2.j9-adpt",
+                "home": "/home/silverest/.sdkman/candidates/java/17.ea.10-open",
                 "options": [
                     "-Duser.dir=/home/silverest/Coding/Scala/brainscar"
                 ]

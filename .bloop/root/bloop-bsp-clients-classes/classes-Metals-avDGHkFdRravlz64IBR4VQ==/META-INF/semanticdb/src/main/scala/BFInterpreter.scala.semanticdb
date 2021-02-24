@@ -1,174 +1,0 @@
-
-´0"src/main/scala/BFInterpreter.scala*(
-_empty_/Environment#*Environment€*1
-_empty_/Environment#`<init>`(). €@*<init>€*)
-_empty_/Environment#ptr(). €*ptr€*/
-_empty_/Environment#`ptr_=`(). €*ptr_=€*/
-#_empty_/Environment#`ptr_=`().(x$1)*x$1€*-
-_empty_/Environment#memory. €*memory€*4
- _empty_/Environment#intToByte().  *	intToByte€*-
-#_empty_/Environment#intToByte().(x)*x€*4
-!_empty_/Environment#readMemory().*
-readMemory€*6
-"_empty_/Environment#writeMemory().*writeMemory€*5
-(_empty_/Environment#writeMemory().(byte)*byte€*$
-_empty_/Environment#`>`().*>€*$
-_empty_/Environment#`<`().*<€*(
-_empty_/Environment#bInc().*bInc€*(
-_empty_/Environment#bDec().*bDec€*0
-_empty_/Environment#printPtr().*printPtr€*0
-_empty_/Environment#readByte().*readByte€*&
-_empty_/Environment#run().*run€*/
-!_empty_/Environment#run().(input)*input€*
-local0 €*insts€*
-local1*inst€*(
-_empty_/Environment#exec().*exec€*.
-!_empty_/Environment#exec().(inst)*inst€*
-local2 €*exprs€*
-local3*inst€*.
-_empty_/BFInterpreter.
- *BFInterpreter€*(
-_empty_/BFInterpreter.run().*run€*1
-#_empty_/BFInterpreter.run().(input)*input€*,
-_empty_/BFInterpreter.test2().*test2€*
-_empty_/test2# *test2€*+
-_empty_/test2#`<init>`(). €@*<init>€*%
-_empty_/test2#main(). € *main€*(
-_empty_/test2#main().(args)*args€*
-local4 €*error€2#
- scala/collection/mutable/2
- scala/collection/2
- scala/2(
-  scala/language.postfixOps.2
- scala/language.2
- scala/21
- )#scala/language.implicitConversions.2
- scala/language.2
- scala/2"
- _empty_/Environment#2-
- _empty_/Environment#`<init>`().2(
- 	_empty_/Environment#ptr().2
- 
-scala/Int#2)
- _empty_/Environment#memory.2
- scala/Array#2
- scala/Byte#2!
-" &scala/Array.fill().2
- !scala/Array.2-
-0 0scala/reflect/ClassTag.apply().2.
-		  _empty_/Environment#intToByte().21
-		 #_empty_/Environment#intToByte().(x)2
-		 
-scala/Int#2
-	"	 &scala/Byte#2!
-	+	 1scala/Int#toByte().21
-	)	 *#_empty_/Environment#intToByte().(x)2/
- !_empty_/Environment#readMemory().2"
- scala/Array#apply().2)
- _empty_/Environment#memory.2(
- _empty_/Environment#ptr().20
- "_empty_/Environment#writeMemory().26
- (_empty_/Environment#writeMemory().(byte)2
- scala/Byte#2#
-
- 
-scala/Array#update().2)
- 
-_empty_/Environment#memory.2(
- _empty_/Environment#ptr().26
- (_empty_/Environment#writeMemory().(byte)2(
- _empty_/Environment#`>`().2,
-
- _empty_/Environment#`ptr_=`().2 
- scala/Int#`+`(+4).2(
-
- _empty_/Environment#ptr().2(
- _empty_/Environment#`<`().2,
-
- _empty_/Environment#`ptr_=`().2 
- scala/Int#`-`(+3).2(
-
- _empty_/Environment#ptr().2)
- 
-_empty_/Environment#bInc().20
- "_empty_/Environment#writeMemory().2.
-  _empty_/Environment#intToByte().2!
- scala/Byte#`+`(+4).2/
- !_empty_/Environment#readMemory().2)
- 
-_empty_/Environment#bDec().20
- "_empty_/Environment#writeMemory().2.
-  _empty_/Environment#intToByte().2!
- scala/Byte#`-`(+3).2/
- !_empty_/Environment#readMemory().2-
- _empty_/Environment#printPtr().2#
- 	scala/Predef.print().2"
- scala/Byte#toChar().2/
-
- !_empty_/Environment#readMemory().2-
- _empty_/Environment#readByte().20
- "_empty_/Environment#writeMemory().2!
-" (scala/Int#toByte().2,
- java/io/BufferedReader#read().2!
- scala/Console.in().2
- scala/Console.2(
- 	_empty_/Environment#run().2/
-
- !_empty_/Environment#run().(input)2"
- scala/Predef.String#2
-   local02-
-   $_empty_/BFParser.parseSource().2
-   _empty_/BFParser.2/
- %  *!_empty_/Environment#run().(input)28
-!
-! *scala/collection/immutable/List#foreach().2
-!! 	local02)
-!! _empty_/Environment#exec().2
-!! local12)
-## 
-_empty_/Environment#exec().2/
-## !_empty_/Environment#exec().(inst)2
-## _empty_/BFToken#2
-## scala/Unit#2/
-$$ !_empty_/Environment#exec().(inst)2
-%% _empty_/IncPtr.2(
-%% _empty_/Environment#`>`().2
-&& _empty_/DecPtr.2(
-&& _empty_/Environment#`<`().2
-'' _empty_/IncByte.2)
-'' _empty_/Environment#bInc().2
-(( _empty_/DecByte.2)
-(( _empty_/Environment#bDec().2
-)) _empty_/Print.2-
-)) _empty_/Environment#printPtr().2
-** _empty_/Read.2-
-** _empty_/Environment#readByte().2%
-++ _empty_/Loop.unapply().2
-++ _empty_/Loop.2
-++ local22"
-,, scala/Byte#`!=`(+3).2"
-,, scala/Array#apply().2)
-,, _empty_/Environment#memory.2(
-,, _empty_/Environment#ptr().29
--- +scala/collection/IterableOnceOps#foreach().2
--
-- local22)
--- _empty_/Environment#exec().2
--- local32$
-// _empty_/BFInterpreter.2*
-00 	_empty_/BFInterpreter.run().21
-0
-0 #_empty_/BFInterpreter.run().(input)2"
-00 scala/Predef.String#2(
-0-0 0_empty_/Environment#run().2-
-0*0 *_empty_/Environment#`<init>`().2"
-00 *_empty_/Environment#21
-010 6#_empty_/BFInterpreter.run().(input)2
-22 scala/main#2,
-22 _empty_/BFInterpreter.test2().2*
-33 _empty_/BFInterpreter.run().2
-22 _empty_/test2#2'
-22 _empty_/test2#`<init>`().2,
-22 _empty_/BFInterpreter.test2().27
-22 )scala/util/CommandLineParser.showError().2
-22 local4PZ AF2CC7FAA467BEAD2605FEA08721582F
